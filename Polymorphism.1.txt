@@ -1,20 +1,18 @@
 public class Animal {
     public void makeNoise()
     {
-        System.out.println("Some sound");
+        System.out.println ("Some sound");
     }
 }
- 
-class Dog extends Animal{
+class Dog extends Animal {
     public void makeNoise()
     {
-        System.out.println("Bark");
+        System.out.println ("Bark");
     }
 }
- 
-class Cat extends Animal{
-    public void makeNoise()
+class Cat extends Animal {
+    public void makeNoise ()
     {
-        System.out.println("Meawoo");
+        System.out.println ("Meawoo");
     }
 }
